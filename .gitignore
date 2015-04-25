@@ -1,2 +1,11 @@
 _site/
 .sass-cache/
+_drafts/
+_assets/
+*.swp
+*.scssc
+.DS_Store
+.rvmrc
+*.psd
+*~
+.ruby-version
