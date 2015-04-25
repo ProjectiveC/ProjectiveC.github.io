@@ -1,0 +1,9 @@
+<footer class="signoff">
+  <p>
+    By<br/>
+    {% if page.author_url != null %}<a href="{{ page.author_url }}">{% endif %}{{ page.author }}{% if page.author_url != null %}</a>{% endif %}
+    <small>
+    <span class="muted">{{ page.date | date: '%B %d, %Y' }}</span>
+    </small>
+  </p>
+</footer>

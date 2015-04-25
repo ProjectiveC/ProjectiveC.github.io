@@ -1,0 +1,55 @@
+<html>
+  {% include head.html %}
+  <body>
+    <div class="wrapper">
+
+      {% include nav-header.html %}
+
+        <section class="content">
+          <article>
+            <div class="mark"></div>
+            <header>
+              <h2 class="post-title">{{ page.title }}</h2>
+              {% unless page.url == "/about/" %}
+              <small class="signoff muted">
+              {% if page.author == null %}
+              <a href="{{ site.myurl }}">{{ site.me }}</a>
+              <br>
+              {% else %}
+              {% assign author = site.data.collaborators[page.author] %}
+              {% if author != null %}
+                  <span>
+                  <a href="{{ author.social }}" target="_blank">{{ author.name }}</a>
+                  </span>
+              {% endif %}
+              <br>
+              {% endif %}
+              </small>
+              <small class="datetime muted">
+                {% if page.date %}
+                  {{ page.date | date_to_string }}
+                {% endif %}
+              </small>
+              {% endunless %}
+            </header>
+            {{ content }}
+            {% if page.project_url != null %}
+            {% unless page.url == "/about/" %}{% include post-footer.html %}{% endunless %}
+            {% endif %}
+          </article>
+          {% if page.previous or page.next %}
+          <div class="pagination">
+            <a class="square" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
+              &lt;
+            </a>
+            <a class="square" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
+              &gt;
+            </a>
+          </div>
+          {% endif %}
+        </section>
+
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

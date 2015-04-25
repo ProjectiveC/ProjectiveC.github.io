@@ -1,0 +1,18 @@
+<div id="share-buttons">
+
+{% capture sharetext %}{{ page.title }} - {{ site.title }}: {{ site.description }}{% endcapture %}
+ |
+
+<!-- Facebook -->
+<a href="http://www.facebook.com/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fa fa-facebook"></i></a>
+ |
+<!-- Twitter -->
+<a href="http://twitter.com/share?url=&text={{ sharetext }}&hashtags=xcode" target="_blank"><i class="fa fa-twitter"></i></a>
+ |
+<!-- Google+ -->
+<a href="https://plus.google.com/share?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fa fa-google-plus"></i></a>
+ |
+<!-- LinkedIn -->
+<a href="http://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+</div>

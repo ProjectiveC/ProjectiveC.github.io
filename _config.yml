@@ -1,0 +1,16 @@
+title:				Projective-C
+description:		Collection of FizzBuzz Xcode projects
+
+me:					Harshita Chandra
+myurl:				http://github.com/thelastjedi
+
+baseurl:			"" # the subpath of your site, e.g. /blog/
+url:				http://projectivec.github.io
+
+permalink:			/:title
+highlighter:		pygments
+markdown:			kramdown
+
+showsocial:
+
+google_analytics:	UA-52347455-3
