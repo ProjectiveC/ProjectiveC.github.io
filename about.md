@@ -20,4 +20,4 @@ Like most ideas, this was born out of need rather than foresight. This collectio
 
 <br>
 
-<span class="muted">This website was made using [Jekyll](http://jekyllrb.com/) and uses an modified version of the theme **None** by [Mu-An Chiou](http://github.com/muan) (you should check out her other stuff).</span>
+<span class="muted">This website was made using [Jekyll](http://jekyllrb.com/) and uses a modified version of the theme **None** by [Mu-An Chiou](http://github.com/muan) (you should check out her other stuff).</span>
