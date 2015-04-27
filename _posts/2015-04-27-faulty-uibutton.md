@@ -8,7 +8,7 @@ author: mpg
 
 
 #### What do we have:
-A product image with an button to order the product.
+A product image with a button to order the product.
 
 <br />
 
