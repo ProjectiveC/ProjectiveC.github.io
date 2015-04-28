@@ -11,4 +11,8 @@
   article img {
     margin: 0 !important;
     float: none !important;
-    min-width: 100% !important; } }
+    min-width: 100% !important; }
+
+  #share-buttons i{
+    padding: 20px; }
+}
