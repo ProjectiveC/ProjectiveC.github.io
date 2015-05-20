@@ -17,4 +17,4 @@ Instead of a string pattern, the console prints ```(null)```.
 <br />
 
 #### Concepts:
-Who hasn't faced a question about design patterns in an interview? This problem can be followed after a general enquiry about the common design patterns. As most people have the singleton code memorised, we can ask the candidate to write the alternate code snippet for ```dispatch_once```, even strike up with a discussion about GCD functions.
+Who hasn't faced a question about design patterns in an interview? This problem can be followed after a general enquiry about the common design patterns. As most people have the singleton code memorised, we can ask the candidate to write the alternate code snippet for ```dispatch_once``` and then strike up a discussion about GCD functions.
