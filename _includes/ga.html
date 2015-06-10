@@ -51,7 +51,7 @@
         else track = false;
 
        	if (track) {
-          ga.push(['_trackEvent', elEv.category.toLowerCase(), elEv.action.toLowerCase(), elEv.label.toLowerCase(), elEv.value, elEv.non_i]);
+          _gaq.push(['_trackEvent', elEv.category.toLowerCase(), elEv.action.toLowerCase(), elEv.label.toLowerCase(), elEv.value, elEv.non_i]);
           if ( el.attr('target') == undefined || el.attr('target').toLowerCase() != '_blank') {
             setTimeout(function() { location.href = elEv.loc; }, 400);
             return false;
