@@ -24,7 +24,7 @@ permalink: /about/
 </tr><tr>
 
 <td class = "td-i"><i class="fa fa-question-circle fa-4x"></i></td>
-<td>If you have questions, suggestions, or would like to contribute, get in touch <a href="mailto:{{ site.email }}">here</a>.</td>
+<td>If you have questions, suggestions, or would like to contribute, <a href="mailto:{{ site.email }}">get in touch</a>.</td>
 
 </tr>
 </table>
