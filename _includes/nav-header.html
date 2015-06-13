@@ -13,11 +13,20 @@
   
   {% if site.showsocial != null %}
 <br>
-    <div class="share-footer-links">
+<div class="share-footer-links">
+  <ul>
+    <li>
       <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" rel="nofollow" data-text="{{ page.title }} #Jekyll"></a>
-    <g:plusone size="medium"></g:plusone>
-    <div class="fb-share-button" data-href="{{ url }}" data-layout="button_count"></div>
-  </div>
+    </li>
+    <li>
+      <div class="fb-share-button" data-href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" data-layout="button_count"></div>
+    </li>
+    <li>
+      <g:plusone size="medium"></g:plusone>
+    </li>
+  </ul>
+</ul>
+</div>
 <script type="text/javascript">
 (function() {
 var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;

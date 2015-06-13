@@ -174,17 +174,3 @@ article blockquote {
   text-align: left;
   color: #999;
   display: inline-block; }
-
-  #share-buttons i {
-  width: 35px;
-  padding: 25px;
-  border: 0;
-  box-shadow: 0;
-  display: inline;
-  color: #C8C6C6;
-  }
-  #share-buttons {
-  color: #eee; }
-  #share-buttons i:hover {
-    color:#369;
-  }

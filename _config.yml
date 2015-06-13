@@ -6,11 +6,12 @@ myurl:				http://github.com/thelastjedi
 
 baseurl:			"" # the subpath of your site, e.g. /blog/
 url:				http://projectivec.github.io
+email:				projectivec@outlook.com
 
 permalink:			/:title
 highlighter:		pygments
 markdown:			kramdown
 
-showsocial:
+showsocial:			true
 
 google_analytics:	UA-52347455-3

@@ -1,0 +1,40 @@
+/* Share */
+#share-buttons i {
+width: 35px;
+padding: 25px;
+border: 0;
+box-shadow: 0;
+display: inline;
+color: #C8C6C6;
+}
+#share-buttons {
+color: #eee; }
+#share-buttons i:hover {
+  color:#369;
+}
+
+/* About table */
+table i{ color:#369;}
+table .td-i {text-align:center;}
+
+/* Footer */
+#cp-footer {position: relative;
+  margin-top: -180px; /* negative value of footer height */
+  height: 180px;
+  clear:both;} 
+
+#cp-footer {font-size:11px;margin:0 auto;padding:0 10px 0 10px}
+#cp-footer a:hover {color:#804249;text-decoration:underline}
+#cp-footer p {color: #888}
+#cp-footer #left1 {width:25%;float:left;padding-top:84px}
+#cp-footer #left2 {width:25%;float:left;padding-top:84px}
+#cp-footer #right {width:50%;float:right;text-align:right;padding-top:72px}
+
+.share-footer-links ul{
+	list-style: none;
+}
+.share-footer-links ul li{
+	display:inline;
+	width: 30%;
+	vertical-align: middle;
+}
