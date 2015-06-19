@@ -6,12 +6,12 @@ project_url: https://github.com/ProjectiveC/BoundAndFramed
 ---
 
 #### What do we have:
-A UITableView of country names. Each table cell contains a single UILabel for the name.
+A UITableView of country names. Each table cell contains a single UILabel for the name of the country.
 
 <br />
 
 #### The Problem:
-We want the UILabel to fit the entire cell, but when we scroll down, the labels tend to disappear.
+When we scroll down, the countries tend to disappear.
 
 <br />
 
