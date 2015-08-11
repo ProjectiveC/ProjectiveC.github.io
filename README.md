@@ -11,6 +11,7 @@ Like most ideas, this was born out of need rather than foresight. This collectio
 ###TODO:
 * Add search
 * Tag Archive
+* Add option to subscribe
 
 <br>
 
