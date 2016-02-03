@@ -9,7 +9,7 @@ url:				http://projectivec.github.io
 email:				projectivec@outlook.com
 
 permalink:			/:title
-highlighter:		pygments
+highlighter:		rouge
 markdown:			kramdown
 
 showsocial:			true
